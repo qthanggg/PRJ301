@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Shopping Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Welcome to my store</h1>
+        Select your laptop
+        <form action="MainController">
+            <select name="cmbLaptop">
+                <option value="T01-Dell Laptop-500">Dell Laptop-500$</option>
+                <option value="T02-HP Laptop-750">HP Laptop-750$</option>
+                <option value="T03-Asus Laptop-250">Asus Laptop-250$</option>
+                <option value="T04-Lenovo Laptop-1000">Lenovo Laptop-1000$</option>
+            </select>
+            <select name="cmbQuantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+            </select>
+            <input type="submit" name="action" value="Add"/>
+            <input type="submit" name="action" value="ViewCart"/>
+        </form>
+        
+    </body>
+</html>

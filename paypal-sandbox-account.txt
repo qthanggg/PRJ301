@@ -1,0 +1,7 @@
+Personal
+email: sb-tt5ex26554901@personal.example.com
+password: 12345678
+
+Business
+email: sb-h86nn26554907@business.example.com
+password: 12345678
